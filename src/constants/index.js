@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Renz Refe',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Zisterhof Management Ltd',
+    position: 'Upwork Client, Cyprus',
     img: 'assets/review1.png',
     review:
-      'Proactive, willing to learn and open for constructive criticism. Eager to find solution',
+      'Jetro is new to Minecraft mod development but has quickly learned the necessary skills to start with. He is communicative, responsive, and dedicated to delivering a great product. We highly recommend Jetro for any Minecraft mod development needs.',
   },
   {
     id: 2,
-    name: 'Mark Rudio',
-    position: 'Founder of TechGear Shop',
+    name: 'Mary Moon',
+    position: 'Upwork Client, Australia',
     img: 'assets/review2.png',
     review:
-      'Teachable attitude, deliver projects on time. Love to learn the artistic side of game development',
+      'we had a great experience working with Jetro. He was communicative, polite, and always professional throughout the project. He delivered exactly what was needed and met the deadline without any issues. I really appreciated his attention to detail and responsiveness. Would definitely work with him again!',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Johnathan Cabrera',
+    position: 'Freelance Client, PH',
     img: 'assets/review3.png',
     review:
-      'Jetro needs time, but dedicated to work. Has integrity and take the task seriously.',
+      'Jetro has arsenal of idea and has a good sense in creative side of game development. Though things need time, but is dedicated to work. Has integrity and take the task seriously.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
+    name: 'Victoria Vargas',
+    position: 'Upwork Client, USA',
     img: 'assets/review4.png',
     review:
-      'What I really admire to Jetro, is his dedication. He needs time but when given chance he will surely fulfill what he is oat to do.',
+      'Jetro take explain what is achievable and what is not. He is very honest and hardworking. I highly recommend him to anyone looking for a reliable developer.',
   },
 ];
 

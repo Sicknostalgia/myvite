@@ -25,8 +25,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Jetro Merle</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                A Game Designer who loves coding and has a bunch of ideas to offer. I’ve honed my skills in developing dynamic games with a strong focus on game feel.
+                {/* With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                and responsive websites. */}
               </p>
             </div>
           </div>
@@ -34,7 +35,7 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/noup.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
@@ -76,7 +77,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
+                I love solving and building things through code. Making games isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
               </p>
             </div>
@@ -95,7 +96,8 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">adrian@jsmastery.pro</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">jetromerle6@gmail.com
+                </p>
               </div>
             </div>
           </div>

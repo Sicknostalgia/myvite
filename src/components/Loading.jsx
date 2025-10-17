@@ -1,20 +1,7 @@
 import { Html, useProgress } from '@react-three/drei';
-import { useEffect, useState } from 'react';
 
 const CanvasLoader = () => {
   const { progress } = useProgress();
-  const [showLoader, setShowLoader] = useState(true);
-
-  useEffect(() => {
-    if (progress >= 100) {
-      // Add a small delay for smooth transition
-      const timeout = setTimeout(() => setShowLoader(false), 500);
-      return () => clearTimeout(timeout);
-    }
-  }, [progress]);
-
-  if (!showLoader) return null; // completely remove loader
-
   return (
     <Html
       as="div"
@@ -24,9 +11,6 @@ const CanvasLoader = () => {
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
-        background: 'black', // optional
-        width: '100vw',
-        height: '100vh',
       }}>
       <span className="canvas-loader"></span>
       <p
