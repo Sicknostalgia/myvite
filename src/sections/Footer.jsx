@@ -24,13 +24,13 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <a
-            href="https://github.com/Sicknostalgia"
+            href="https://www.artstation.com/jether"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
           >
             <img
-              src="/assets/twitter.svg"
+              src="/assets/artstationwhite.svg"
               alt="twitter"
               className="w-1/2 h-1/2"
             />
@@ -38,13 +38,13 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <a
-            href="https://github.com/Sicknostalgia"
+            href="https://www.youtube.com/@sicknostalgia9934"
             target="_blank"
             rel="noopener noreferrer"
             className="social-icon"
           >
             <img
-              src="/assets/instagram.svg"
+              src="/assets/youtubewhite.svg"
               alt="instagram"
               className="w-1/2 h-1/2"
             />
