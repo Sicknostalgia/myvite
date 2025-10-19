@@ -264,7 +264,7 @@ export const workExperiences = [
     pos: 'Unity Game Developer, Video Editor',
     duration: '2024 - Present',
     title: "I specialize on game prototype, as well as creating my own assets instead of relying entirely on online resources. I also handle video editing—crafting gameplay montages, ads, promotional videos, and typographical animations based on client needs.",
-    icon: '/assets/framer.svg',
+    icon: '/assets/upwork logo.svg',
     animation: 'victory',
   },
   {
@@ -273,7 +273,7 @@ export const workExperiences = [
     pos: 'Unity Developer',
     duration: '2022 - 2024',
     title: "I contributed to the development of 3D Slot Machine Games along with cross-regional teams. My responsibilities included implementing features, optimizing code, playtesting, and debugging.",
-    icon: '/assets/figma.svg',
+    icon: '/assets/breddas.svg',
     animation: 'clapping',
   },
   // {
