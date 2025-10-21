@@ -14,7 +14,7 @@ const HackerRoom = (props) => {
 
   return (
     <group {...props} dispose={null}>
-      {/* <mesh geometry={nodes.screen_screens_0.geometry} material={materials.screens}>
+      <mesh geometry={nodes.screen_screens_0.geometry} material={materials.screens}>
         <meshMatcapMaterial map={screenTxt} />
       </mesh>
       <mesh geometry={nodes.screen_glass_glass_0.geometry} material={materials.glass} />
@@ -29,11 +29,11 @@ const HackerRoom = (props) => {
       <mesh geometry={nodes.table_table_mat_0_7.geometry} material={materials.arm_mat} />
       <mesh geometry={nodes.table_table_mat_0_8.geometry} material={materials.tv_mat}>
         <meshMatcapMaterial map={monitortxt} />
-      </mesh> */}
-      {/* <mesh geometry={nodes.table_table_mat_0_9.geometry} material={materials.cables_mat} />
-      <mesh geometry={nodes.table_table_mat_0_10.geometry} material={materials.props_mat} /> */}
+      </mesh>
+      <mesh geometry={nodes.table_table_mat_0_9.geometry} material={materials.cables_mat} />
+      <mesh geometry={nodes.table_table_mat_0_10.geometry} material={materials.props_mat} />
       <mesh geometry={nodes.table_table_mat_0_11.geometry} material={materials.ground_mat} />
-      {/* <mesh geometry={nodes.table_table_mat_0_12.geometry} material={materials.key_mat} />  */}
+      <mesh geometry={nodes.table_table_mat_0_12.geometry} material={materials.key_mat} /> 
     </group>
   );
 }
