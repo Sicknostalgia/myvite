@@ -58,13 +58,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Zombievolve Menu Background Creation Live Sessions',
+    desc: 'Zombievolve is my top-down game project, and lately, I’ve been focusing on crafting its menu background from scratch. In my YouTube live sessions, I walk you through the creative process from sketching ideas and building the scene to adding those small details that set the mood of the game. It’s a chill, behind-the-scenes look at how Zombievolve’s world starts to take shape, one layer at a time.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Created with Aseprite for the Unity game engine, Zombievolve’s menu background is a hand-drawn pixel art scene that sets the tone for the game’s world',
+    href: 'https://youtube.com/live/8ew8ytpgkD8',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    logo: '/assets/logorizal.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -74,73 +74,73 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Unity',
+        path: '/assets/unity.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Aseprite',
+        path: 'assets/aseprite.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      // {
+      //   id: 3,
+      //   name: 'TypeScript',
+      //   path: '/assets/typescript.png',
+      // },
+      // {
+      //   id: 4,
+      //   name: 'Framer Motion',
+      //   path: '/assets/framer.png',
+      // },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Shepherd’s Leap Environment Asset Creation Live Sessions',
+    desc: 'Shepherd’s Leap is my upcoming 3D adventure puzzle game, and lately, I’ve been creating a low-poly environment asset for it. It’s part of my ongoing journey to shape the game’s world while practicing and refining my creative process a calm, behind-the-scenes look at how Shepherd’s Leap begins to take form.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Created with Blender and shared through my YouTube and Facebook live sessions, Shepherd’s Leap showcases the process of building a low-poly world one environment asset at a time.',
+    href: 'https://youtube.com/live/eaLEbHGn-J8',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    logo: '/assets/shepherdsleap.svg',
     logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      backgroundColor: '#d58353db',
+      border: '0.2px solid #d58353db',
+      //boxShadow: '0px 0px 60px 0px #d58353db',
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Unity',
+        path: '/assets/unity.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Blender',
+        path: 'assets/blenderlogo.svg',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Youtube',
+        path: '/assets/youtubewhite.svg',
       },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      // {
+      //   id: 4,
+      //   name: 'Framer Motion',
+      //   path: '/assets/framer.png',
+      // },
     ],
   },
   {
-    title: 'Menu Background - Live',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Zombievolve Demo Development Live Sessions',
+    desc: 'Zombievolve is my top-down game project, and lately, I’ve been working on a training feature a demo prototype that uses a bullseye target instead of a moving enemy. I’m also adding an object pooling system to make the bullseye more efficient. It’s a live look at how I build and test new ideas for the game step by step.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+      'Built using Unity’s Profiler for performance testing, an object pooling system from GitHub, and Aseprite for the bullseye animation.',
     href: 'https://www.youtube.com/live/8ew8ytpgkD8?si=M4rI1ZBwuowr9chd',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    logo: '/assets/mob rolling logo.svg',
     logoStyle: {
-      backgroundColor: '#60f5a1',
+      backgroundColor: '#9260f5ff',
       background:
         'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
       border: '0.2px solid rgba(208, 213, 221, 1)',
@@ -171,13 +171,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Work Dilemma - Decision-Making Game App',
+    desc: 'Work Dilemma is a small game-app I created and published on itch.io. It’s designed to help you decide what to do when you’re feeling indecisive whether to work overtime, take a break, skip work, or even have a quick chitchat. It’s not just a game, but a playful little decision-maker for everyday moments of hesitation.',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Developed with Unity, Work Dilemma uses DoTween for smooth UI game feel, Aseprite for the interface assets, and Cinemachine for dynamic screen shakes and transitions',
+    href: 'https://unnu.itch.io/work-dilemma',
     texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    logo: '/assets/workdilemmalogo.svg',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -208,17 +208,17 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Lab Escape First-Person Puzzle Game',
+    desc: 'Lab Escape is a 3D first-person puzzle game where your goal is simple solve puzzles to find your way out. I created this game as an entry for a game jam on itch.io by SasquatchBStudios.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+      'I built Lab Escape in Unity, using a few premade assets from the Unity Asset Store, DoTween to make the UI feel smooth, and Bro Audio to bring the sound to life. It was a fun, hands-on project where I focused on keeping things simple but engaging.',
     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: '/assets/lablogo.svg',
     logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
+      backgroundColor: '#0f2e32',
+      border: '0.2px solid #0f2e32',
+      boxShadow: '0px 0px 60px 0px #0f2e32',
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
