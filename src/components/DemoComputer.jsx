@@ -944,7 +944,7 @@ const DemoComputer = (props) => {
             scale={0.963}
           />
         </group>
-        <group
+        {/* <group
           name="Monitor-B-_computer_0"
           position={[0.266, 1.132, 0.051]}
           rotation={[0, -0.033, 0]}
@@ -1005,7 +1005,7 @@ const DemoComputer = (props) => {
             geometry={nodes['Monitor-B-_computer_0_8'].geometry}
             material={materials.Material_37}
           />
-        </group>
+        </group> */}
       </group>
     </group>
   );

@@ -57,20 +57,22 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
-  {
-    title: 'Zombievolve Menu Background Creation Live Sessions',
-    desc: 'Zombievolve is my top-down game project, and lately, I’ve been focusing on crafting its menu background from scratch. In my YouTube live sessions, I walk you through the creative process from sketching ideas and building the scene to adding those small details that set the mood of the game. It’s a chill, behind-the-scenes look at how Zombievolve’s world starts to take shape, one layer at a time.',
+   {
+    title: 'Zombievolve Demo Development Live Sessions',
+    desc: 'Zombievolve is my top-down game project, and lately, I’ve been working on a training feature a demo prototype that uses a bullseye target instead of a moving enemy. I’m also adding an object pooling system to make the bullseye more efficient. It’s a live look at how I build and test new ideas for the game step by step.',
     subdesc:
-      'Created with Aseprite for the Unity game engine, Zombievolve’s menu background is a hand-drawn pixel art scene that sets the tone for the game’s world',
-    href: 'https://youtube.com/live/8ew8ytpgkD8',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/logorizal.svg',
+      'Built using Unity’s Profiler for performance testing, an object pooling system from GitHub, and Aseprite for the bullseye animation.',
+    href: 'https://youtube.com/live/3PtZEBI2C54',
+    texture: '/textures/project/zombievolvegame.mov',
+    logo: '/assets/mob rolling logo.svg',
     logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+      backgroundColor: '#9260f5ff',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight1.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
@@ -82,16 +84,53 @@ export const myProjects = [
         name: 'Aseprite',
         path: 'assets/aseprite.png',
       },
-      // {
-      //   id: 3,
-      //   name: 'TypeScript',
-      //   path: '/assets/typescript.png',
-      // },
-      // {
-      //   id: 4,
-      //   name: 'Framer Motion',
-      //   path: '/assets/framer.png',
-      // },
+      {
+        id: 3,
+        name: 'Youtube',
+        path: '/assets/youtubewhite.svg',
+      },
+      {
+        id: 4,
+        name: 'Github',
+        path: '/assets/github.svg',
+      },
+    ],
+  },
+   {
+    title: 'Work Dilemma - Decision-Making Game App',
+    desc: 'Work Dilemma is a small game-app I created and published on itch.io. It’s designed to help you decide what to do when you’re feeling indecisive whether to work overtime, take a break, skip work, or even have a quick chitchat. It’s not just a game, but a playful little decision-maker for everyday moments of hesitation.',
+    subdesc:
+      'Developed with Unity, Work Dilemma uses DoTween for smooth UI game feel, Aseprite for the interface assets, and Cinemachine for dynamic screen shakes and transitions',
+    href: 'https://unnu.itch.io/work-dilemma',
+    texture: '/textures/project/workdilemma.mov',
+    logo: '/assets/workdilemmalogo.svg',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Unity',
+        path: '/assets/unity.png',
+      },
+      {
+        id: 2,
+        name: 'Aseprite',
+        path: 'assets/aseprite.png',
+      },
+      {
+        id: 3,
+        name: 'itch.io',
+        path: '/assets/itch.png',
+      },
+      {
+        id: 4,
+        name: 'Dotween',
+        path: '/assets/dotweenlogo.svg',
+      },
     ],
   },
   {
@@ -100,7 +139,7 @@ export const myProjects = [
     subdesc:
       'Created with Blender and shared through my YouTube and Facebook live sessions, Shepherd’s Leap showcases the process of building a low-poly world one environment asset at a time.',
     href: 'https://youtube.com/live/eaLEbHGn-J8',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/shepherds.mov',
     logo: '/assets/shepherdsleap.svg',
     logoStyle: {
       backgroundColor: '#d58353db',
@@ -132,79 +171,40 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Zombievolve Demo Development Live Sessions',
-    desc: 'Zombievolve is my top-down game project, and lately, I’ve been working on a training feature a demo prototype that uses a bullseye target instead of a moving enemy. I’m also adding an object pooling system to make the bullseye more efficient. It’s a live look at how I build and test new ideas for the game step by step.',
+    title: 'Zombievolve Menu Background Creation Live Sessions',
+    desc: 'Zombievolve is my top-down game project, and lately, I’ve been focusing on crafting its menu background from scratch. In my YouTube live sessions, I walk you through the creative process from sketching ideas and building the scene to adding those small details that set the mood of the game. It’s a chill, behind-the-scenes look at how Zombievolve’s world starts to take shape, one layer at a time.',
     subdesc:
-      'Built using Unity’s Profiler for performance testing, an object pooling system from GitHub, and Aseprite for the bullseye animation.',
-    href: 'https://www.youtube.com/live/8ew8ytpgkD8?si=M4rI1ZBwuowr9chd',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/mob rolling logo.svg',
+      'Created with Aseprite for the Unity game engine, Zombievolve’s menu background is a hand-drawn pixel art scene that sets the tone for the game’s world',
+    href: 'https://youtube.com/live/8ew8ytpgkD8',
+    texture: '/textures/project/gamebackground.mov',
+    logo: '/assets/logorizal.svg',
     logoStyle: {
-      backgroundColor: '#9260f5ff',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Unity',
+        path: '/assets/unity.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Aseprite',
+        path: 'assets/aseprite.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Work Dilemma - Decision-Making Game App',
-    desc: 'Work Dilemma is a small game-app I created and published on itch.io. It’s designed to help you decide what to do when you’re feeling indecisive whether to work overtime, take a break, skip work, or even have a quick chitchat. It’s not just a game, but a playful little decision-maker for everyday moments of hesitation.',
-    subdesc:
-      'Developed with Unity, Work Dilemma uses DoTween for smooth UI game feel, Aseprite for the interface assets, and Cinemachine for dynamic screen shakes and transitions',
-    href: 'https://unnu.itch.io/work-dilemma',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/workdilemmalogo.svg',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
+      // {
+      //   id: 3,
+      //   name: 'TypeScript',
+      //   path: '/assets/typescript.png',
+      // },
+      // {
+      //   id: 4,
+      //   name: 'Framer Motion',
+      //   path: '/assets/framer.png',
+      // },
     ],
   },
   {
@@ -213,7 +213,7 @@ export const myProjects = [
     subdesc:
       'I built Lab Escape in Unity, using a few premade assets from the Unity Asset Store, DoTween to make the UI feel smooth, and Bro Audio to bring the sound to life. It was a fun, hands-on project where I focused on keeping things simple but engaging.',
     href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/labescape.mov',
     logo: '/assets/lablogo.svg',
     logoStyle: {
       backgroundColor: '#0f2e32',
@@ -224,24 +224,25 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Unity',
+        path: '/assets/unity.png',
       },
-      {
+       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'Itch.io',
+        path: '/assets/itch.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Bro Audio',
+        path: 'assets/broaudiologo.svg',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Dotween',
+        path: '/assets/dotweenlogo.svg',
       },
+     
     ],
   },
 ];
