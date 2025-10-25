@@ -20,12 +20,12 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/jet.png" alt="grid-1" className="w-[200px] h-[200px] object-contain rounded-xl border-2 border-white shadow-[0_0_20px_5px_rgba(200,200,200,0.3)] opacity-70" />
 
             <div>
               <p className="grid-headtext">Hi, I’m Jetro Merle</p>
               <p className="grid-subtext">
-                A Game Designer who loves coding and has a bunch of ideas to offer. I’ve honed my skills in developing dynamic games with a strong focus on game feel.
+                A Game Designer who loves coding and has a bunch of ideas to offer. I’ve been continuously honing my skills in and outside of game design and this website is one of the results of that journey.
                 {/* With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites. */}
               </p>
@@ -63,8 +63,8 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">I’m flexible with </p>
+              <p className="grid-subtext">I&apos;Im based in Philippines, Visayas region and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>

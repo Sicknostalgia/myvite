@@ -37,9 +37,11 @@ const DemoComputer = (props) => {
           // receiveShadow
           geometry={nodes['monitor-screen'].geometry}
           material={nodes['monitor-screen'].material}
-          position={[0.127, 1.831, 0.511]}
+          //same with position multiply original scale to 2.1 to align relative to monitor.
+          position={[-.06, 2.6, 1.13]}
           rotation={[1.571, -0.005, 0.031]}
-          scale={[0.661, 0.608, 0.401]}>
+          //because the monitor b scale increase e.g. .045 +.05 = .095 | .095 / .045 = 2.1  | multiply original scale by 2.1
+          scale={[0.661 * 2.2, 1 * 2.2, 0.401 * 2.1]}>
           <meshBasicMaterial map={txt} toneMapped={false} />
         </mesh>
         <group name="RootNode" position={[0, 1.093, 0]} rotation={[-Math.PI / 2, 0, -0.033]} scale={0.045}>

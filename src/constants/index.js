@@ -26,7 +26,7 @@ export const clientReviews = [
     id: 1,
     name: 'Zisterhof Management Ltd',
     position: 'Upwork Client, Cyprus',
-    img: 'assets/review1.png',
+    img: 'assets/upwork.png',
     review:
       'Jetro is new to Minecraft mod development but has quickly learned the necessary skills to start with. He is communicative, responsive, and dedicated to delivering a great product. We highly recommend Jetro for any Minecraft mod development needs.',
   },
@@ -34,7 +34,7 @@ export const clientReviews = [
     id: 2,
     name: 'Mary Moon',
     position: 'Upwork Client, Australia',
-    img: 'assets/review2.png',
+    img: 'assets/upwork.png',
     review:
       'we had a great experience working with Jetro. He was communicative, polite, and always professional throughout the project. He delivered exactly what was needed and met the deadline without any issues. I really appreciated his attention to detail and responsiveness. Would definitely work with him again!',
   },
@@ -42,7 +42,7 @@ export const clientReviews = [
     id: 3,
     name: 'Johnathan Cabrera',
     position: 'Freelance Client, PH',
-    img: 'assets/review3.png',
+    img: 'assets/freelance.svg',
     review:
       'Jetro has arsenal of idea and has a good sense in creative side of game development. Though things need time, but is dedicated to work. Has integrity and take the task seriously.',
   },
@@ -50,7 +50,7 @@ export const clientReviews = [
     id: 4,
     name: 'Victoria Vargas',
     position: 'Upwork Client, USA',
-    img: 'assets/review4.png',
+    img: 'assets/upwork.png',
     review:
       'Jetro take explain what is achievable and what is not. He is very honest and hardworking. I highly recommend him to anyone looking for a reliable developer.',
   },
@@ -252,6 +252,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
+    dicePosition: isSmall ? [-4, -5, 0] : isMobile ? [-5, -5, 0] : isTablet ? [-5, -5, 0] : [-9, -5.5, 0],
     reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
     ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
     targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
@@ -265,7 +266,7 @@ export const workExperiences = [
     pos: 'Unity Game Developer, Video Editor',
     duration: '2024 - Present',
     title: "I specialize on game prototype, as well as creating my own assets instead of relying entirely on online resources. I also handle video editing—crafting gameplay montages, ads, promotional videos, and typographical animations based on client needs.",
-    icon: '/assets/upwork logo.svg',
+    icon: '/assets/upwork.png',
     animation: 'victory',
   },
   {
