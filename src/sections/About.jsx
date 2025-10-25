@@ -70,15 +70,14 @@ const About = () => {
           </div>
         </div>
 
-        <div className="xl:col-span-2 xl:row-span-3">
-          <div className="grid-container">
-            <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+        <div className="xl:col-span-2 xl:row-span-3 relative">
+          <div className="grid-container relative">
+            <img src="assets/zombieSplashArt.png" alt="grid-3" className="w-full sm:h-[300px] h-fit object-contain opacity-70 " />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">My Passion for Games</p>
               <p className="grid-subtext">
-                I love solving and building things through code. Making games isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+               I love turning ideas into reality, from coding to creating game assets. Games are my passion, and I’m always exploring new ways to grow and build.
               </p>
             </div>
           </div>
